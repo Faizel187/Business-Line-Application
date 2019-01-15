@@ -82,7 +82,7 @@
 
       if (id > 0) {
         for (let i = 0; i < products.length; i++) {
-          if (products[i].productId === id) {
+          if (products[i].productId == id) {
             product = products[i];
             break;
           }

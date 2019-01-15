@@ -34,7 +34,7 @@
             productResource: "productResource",
 
             product: function (productResource, $stateParams) {
-              let productId = $stateParams.productId;
+              const productId = $stateParams.productId;
               return productResource.get({ productId: productId }).$promise;
             }
           }
